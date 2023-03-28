@@ -1,0 +1,22 @@
+{
+  "name": "RtUI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "module":"es/index.js",
+  "scripts": {
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": ["RtUI","vue3+ts组件库"],
+  "author": "rt",
+  "license": "MIT",
+  "typings": "lib/index.d.ts",
+  "dependencies": {
+    "@RtUI/utils": "workspace:^1.0.0"
+  }
+}

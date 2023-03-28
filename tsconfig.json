@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "jsx": "preserve", // jsx 不转
+      "strict": true,
+      "target": "ES2015", // 遵循es5版本
+      "module": "ESNext", // 打包模块类型ESNext
+      "skipLibCheck": true, // 跳过类库检测
+      "esModuleInterop": true, // 支持es6,commonjs模块
+      "moduleResolution": "Node", // 按照node模块来解析
+      "lib": ["esnext", "dom"] // 编译时用的库
+    }
+  }
+  
